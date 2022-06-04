@@ -1,0 +1,29 @@
+COLUMNS & ROWS
+
+grid-template-colums
+grid-template-rows
+    untuk mendefinisakan kolom / baris dengan menuliskan nilai dipisahkan oleh spasi. Nilai merepreseentasikan ukuran grid track dan spasi merepresentasikan grid line
+
+
+Explicit menentukan secara jelas ukuran kolim dan barisnya
+
+Implicit adalah sisa kolom dan baris yang tidak ditentukan ukurannya
+
+Auto Colums dan Auto rows
+    adalah css untuk mengatur implisit dari grid
+
+penulisan css
+grid-auto-colums : 200px
+grid-auto-rows: 200px;
+
+
+Grid Auto Flow
+    untuk mengatur penempatan item pda grid track termasuk yang ditulis secara implisit
+
+penulisan css
+grid-auto-flow: row | column | row dense | column dense;
+
+
+
+
+
