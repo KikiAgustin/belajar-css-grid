@@ -12,4 +12,7 @@ Spesial function dan keyword
 
 - auto-fill dan auto-fit
     Menentukan jumlah item untuk berada pada grid track
+
+- minmax()
+    Menentukan ukuran minimal dan maksimal dari grid track
     
