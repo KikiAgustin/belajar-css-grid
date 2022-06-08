@@ -1,0 +1,15 @@
+GRID AREA DAN GRID GAP
+
+    grid-template-area
+        mendefinisikan grid template menggunakan nama dari area yang ditulis pada property grid-area pada item
+
+    grid-template
+        shorthand untuk mendefinisikan grid-template-rows, grid-template-colums, dan grid-template-area dalam satu deklarasi
+
+    column-gap dan row-ga
+        mendefinisikan ukuran grid-line / jarak antar baris atau kolom
+
+    grid
+        shorthand untuk mendefinisikan properti dalam satu deklarasi
+
+    
