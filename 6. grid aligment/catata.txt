@@ -1,0 +1,23 @@
+GRID ALIGMENT PADA CSS GRID
+
+justify-items
+    mensejajarkan grid-item pada sumbu horizontal
+
+align-items
+    mensejajarkan grid-items pada sumbu vertikal
+
+place-items
+    shorthand untuk menulis justify-items dan aligh-items dalam satu deklarasi
+
+justify-content
+    mengatur posisi seluruh grid container pada sumbu horizontal
+
+    warning
+    ini bisa dilakukan ketika ukuran total grid lebih kecil dari ukuran containernya, biasanya ketika grid items nya menggunakan ukuran yang fixed (px)
+
+align-content
+    sama seperti justify-content, tapi sumbunya vertikal
+
+place-content
+    shorthand untuk menulis justify-content dan align-content dalam satu deklarasi
+
