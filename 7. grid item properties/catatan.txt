@@ -1,0 +1,19 @@
+GRID ITEM PROPERTIES
+    grid-column-start
+    grid-column-end
+    grid-row-start
+    grid-row-end
+
+    menentukan tempat dari grid item dengan mengadu pada nomor atau nama grid line yang spesifik
+
+    penjelasan value dari grid item PROPERTIES
+    <nomor> | <nama> => mengacu pada nomor atau nama yang kita beri grid line
+    span <nomor> => item akan memanjang/ melebar sampai sejumlah nomor
+    span <nomor>   => item akan memanjang / melebar sampai ke nama grid tertentu
+
+    grid-colom dan grid-row
+        shorthand untuk start dan end pada grid-colum dan grid-row
+
+    grid-area
+        menentukan nama area pada item sesuai dengan template yang sudah dibuat sebelumnya melalui properti grid-template-areas
+        Bisa digunakan juga sebagai shorthand untuk grid-column-start, grid-column-end, grid-row-start dan grid-row-end
