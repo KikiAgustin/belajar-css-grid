@@ -17,3 +17,12 @@ GRID ITEM PROPERTIES
     grid-area
         menentukan nama area pada item sesuai dengan template yang sudah dibuat sebelumnya melalui properti grid-template-areas
         Bisa digunakan juga sebagai shorthand untuk grid-column-start, grid-column-end, grid-row-start dan grid-row-end
+
+    justify-self
+        Mengatur posisi item pada sebuah cell terhadap sumbu horizontal
+
+    align-self
+        Mengatur posisi item pada sebuah cell terhadap sumbu vetikal
+
+    place-self
+        Shorthand posisi item pada sebuah cell terhadap sumbu vertikan dan sumbu horizontal dalan satu deklarasi
