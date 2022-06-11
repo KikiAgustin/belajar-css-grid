@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #ddd;
+    font-size: 18px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+/* header */
+.header {
+    display: grid;
+    grid-template-areas:
+        'hero hero features-1'
+        'hero hero features-2'
+    ;
+}
+
+.hero {
+    grid-area: hero;
+    min-height: 350px;
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: center;
+}
