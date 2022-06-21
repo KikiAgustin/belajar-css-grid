@@ -1,14 +1,46 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Poppins;
 }
 
 .container {
     margin: 0 150px 0 150px;
 }
 
-.navbar {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: 79px;
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.logo h1 {
+    font-size: 26px;
+    color: #3252DF;
+}
+
+.logo h1 span {
+    color: #152C5B;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #152C5B;
+}
+
+.active {
+    color: #3252DF;
+}
+
+.line-nav {
+    background-color: #E5E5E5;
 }
