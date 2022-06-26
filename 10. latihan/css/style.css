@@ -111,24 +111,27 @@ header .icon .image {
 
 /* End Header */
 
+
 /* Card Image 1 */
 
 .card-image-1 {
-    margin-top: 70px;
     display: grid;
+    justify-content: space-between;
     grid-template-areas:
-        'image-detail-1 image-detail-2 image-detail-3',
+        'image-detail-1 image-detail-2 image-detail-3'
         'image-detail-1 image-detail-4 image-detail-5';
 }
 
-.card-image-1 .title {
+.title-most {
     font-size: 24px;
     font-weight: 500;
     color: #152C5B;
     margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 .image-detail-1 {
+    grid-area: image-detail-1;
     width: 361px;
     height: 460px;
     background-image: url('../img/most/image-1.png');
@@ -171,16 +174,108 @@ header .icon .image {
 }
 
 .image-detail-2 {
+    grid-area: image-detail-2;
     width: 361px;
     height: 215px;
     background-image: url('../img/most/image-2.png');
 }
 
 .image-detail-3 {
+    grid-area: image-detail-3;
     width: 361px;
     height: 215px;
-    background-image: url('../img/most/image-2.png');
+    background-image: url('../img/most/image-3.png');
 }
+
+.image-detail-4 {
+    grid-area: image-detail-4;
+    width: 361px;
+    height: 215px;
+    background-image: url('../img/most/image-4.png');
+}
+
+.image-detail-5 {
+    grid-area: image-detail-5;
+    width: 361px;
+    height: 215px;
+    background-image: url('../img/most/image-5.png');
+}
+
+.content-image button {
+    width: 180px;
+    height: 40px;
+    background-color: #FF498B;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    justify-content: end;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.content-image .button {
+    display: flex;
+    justify-content: end;
+}
+
+.content-image .detail {
+    margin-left: 24px;
+    margin-top: 98px;
+    color: #fff;
+}
+
+.content-image .detail h4 {
+    font-size: 20px;
+    font-weight: 150;
+
+}
+
+.content-image .detail p {
+    font-size: 15px;
+    font-weight: 150;
+
+}
+
+/* End Card Image 1 */
+
+/* Card Image -2 */
+
+.card-image-2 {
+    display: grid;
+    grid-template-areas: 'card-image-houses-1 card-image-houses-2 card-image-houses-3 card-image-houses-4';
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-image-houses-1 {
+    grid-area: card-image-houses-1;
+}
+
+.card-image-houses-2 {
+    grid-area: card-image-houses-2;
+}
+
+.card-image-houses-3 {
+    grid-area: card-image-houses-3;
+}
+
+.card-image-houses-4 {
+    grid-area: card-image-houses-4;
+}
+
+.houses h4 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #152C5B;
+}
+
+.houses p {
+    font-size: 15px;
+    font-weight: 200;
+    color: #B0B0B0;
+}
+
 
 
 
@@ -307,6 +402,36 @@ header .icon .image {
         justify-content: center;
         margin-top: 40px;
     }
+
+    /* Card Image 1 */
+    .card-image-1 {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        grid-template-areas:
+            'image-detail-1'
+            'image-detail-2'
+            'image-detail-3'
+            'image-detail-4'
+            'image-detail-5';
+    }
+
+    /* End Card Image 1 */
+
+    /* Card Image 2 */
+
+    .card-image-2 {
+        display: grid;
+        grid-template-areas:
+            'card-image-houses-1'
+            'card-image-houses-2'
+            'card-image-houses-3'
+            'card-image-houses-4';
+        justify-content: space-around;
+        gap: 15px;
+    }
+
+
 }
 
 
@@ -327,5 +452,15 @@ header .icon .image {
 
     .content-2 img {
         width: 400px;
+    }
+
+    .card-image-1 {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        grid-template-areas:
+            'image-detail-1 image-detail-2'
+            'image-detail-2 image-detail-3'
+            'image-detail-4 image-detail-5';
     }
 }
